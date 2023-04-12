@@ -24,13 +24,7 @@
       }
     }
   },
-  "plugins": [
-    "react",
-    "react-hooks",
-    "prettier",
-    "@typescript-eslint",
-    "tailwindcss"
-  ],
+  "plugins": ["react", "react-hooks", "prettier", "@typescript-eslint", "tailwindcss"],
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",

@@ -3,11 +3,7 @@ module.exports = {
   future: {
     hoverOnlyWhenSupported: true, // Strip hover styles for mobile devices.
   },
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './app/**/*.{js,ts,jsx,tsx}',
-  ],
+  content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './app/**/*.{js,ts,jsx,tsx}'],
   theme: {
     container: {
       center: true,
@@ -18,7 +14,8 @@ module.exports = {
         xl: '6rem',
         '2xl': '10rem',
       },
-    },fontSize: {
+    },
+    fontSize: {
       xs: '0.75rem', // 12px
       sm: '0.875rem', // 14px
       base: '1rem', // 16px
@@ -50,10 +47,9 @@ module.exports = {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
   },
   plugins: [require('tailwindcss-animate')],
-}
+};
